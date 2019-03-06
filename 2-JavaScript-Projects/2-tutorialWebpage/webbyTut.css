@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: whitesmoke;
     font-family: 'raleway', sans-serif;
@@ -98,4 +99,106 @@ body {
   }
 
   
+=======
+body {
+    background-color: whitesmoke;
+    font-family: 'raleway', sans-serif;
+    }    
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+  
+  h1{
+    font-size: 60pt;
+    font-family: 'Acme', sans-serif;
+    
+  }
+  
+ 
+  
+  #home {
+    margin-top: 50px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    background: url('https://images.unsplash.com/photo-1458966480358-a0ac42de0a7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80') center 75% no-repeat fixed;
+    background-size: cover
+     
+  }
+  
+  h3.header-tag {
+    margin-top: -30px;
+      font-size: 18pt;
+  }
+  
+  h2 {
+    font-family: 'Acme', sans-serif;
+    color: darkred;
+  }
+  
+  .main {
+    text-align: left;
+  }
+  
+  #about {
+    margin-top: 50px;
+  }
+  
+  #about-picture {
+    width: 50vw;
+  }
+  
+  #profile-pic {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black;
+  }
+  
+  #about-content {
+    width: 40vw;
+    float: center;
+  }
+
+  
+>>>>>>> 3/6/19
         
