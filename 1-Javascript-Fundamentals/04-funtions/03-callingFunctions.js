@@ -158,5 +158,11 @@ function death(bigGov) {
 }
 
 let totalTax = death(19.88)
+<<<<<<< HEAD
 >>>>>>> 3/6/19
 console.log(totalTax);
+=======
+console.log(totalTax);
+
+
+>>>>>>> 3/7/2019

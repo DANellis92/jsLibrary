@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 function katieTrust() {
     for (let x = 1; x <= 10; x++) {
         console.log(x)
@@ -18,3 +19,14 @@ function katieTrust() {
 }
 >>>>>>> 3/6/19
 katieTrust()
+=======
+
+function whatDoesItDo(color) {
+    if (color !== 'blue' || color !== 'green') {
+        color = 'red';
+    }
+    return color;
+};
+
+console.log(whatDoesItDo());
+>>>>>>> 3/7/2019

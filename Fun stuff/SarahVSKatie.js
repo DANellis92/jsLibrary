@@ -54,5 +54,18 @@ function katieTrust() {
 		}
 	}
 }
+<<<<<<< HEAD
 >>>>>>> 3/6/19
 katieTrust()
+=======
+katieTrust()
+
+
+
+let sarahIQ = 200;
+let katieIQ = 180;
+
+if (sarahIQ > katieIQ) {
+	console.log('Get wrecked Katie, you dweeb')
+}
+>>>>>>> 3/7/2019
