@@ -1,0 +1,144 @@
+body {
+	width: 100wh;
+	height: 90vh;
+	color: #fff;
+	background: linear-gradient(180deg,#000000, #595755, #9b979c);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 20s ease infinite;
+	-moz-animation: Gradient 20s ease infinite;
+	animation: Gradient 20s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+h6 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	right: 0;
+	left: 0;
+}
+ .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+    
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+  
+#home {
+  position: relative;
+  margin-top: 0;
+  width: 100vw;
+  height: 40vh;
+  padding-left: 1px;
+  padding-right: 1px;
+  background: url('https://images.unsplash.com/photo-1551081878-aa144985d34c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80') center 80% no-repeat ;
+  background-size: cover;
+}
+
+.header-tag {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-variant: small-caps;
+
+
+}
+h2 {
+  font-family: 'Acme', sans-serif;
+  color: darkred;
+}
+
+.main {
+  text-align: left;
+}
+
+#about {
+  margin-top: 50px;
+}
+
+#about-content {
+  width: 40vw;
+  float: center;
+}
+.footer {
+  height: 20px;
+  width: 100vw;
+  position: fixed;
+  bottom: 10px;
+  left: 45vw;
+  padding-bottom: 10px;
+  
+
+  
+
+
+}
+    
