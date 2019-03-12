@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>No Coffee Involved</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="javascript" href="website.js"
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a>Check out these great resources!</a>
+        <a href="https://www.w3schools.com/default.asp" target="_blank">w3schools</a>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">MDN Docs</a>
+        <a href="https://css-tricks.com/">CSS Tricks</a>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Learn More Here</span>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+    <header id="home">
+        <h1 class="header-tag"> Javascript Basics </h1>
+    </header>
+    <div class="main">
+        <section id="about">
+
+            <div id="about-content">
+                <h2>So you want to learn to code?</h2>
+                <p>If you happen to be reading this I'm going to assume you're interesting in learning about how to use Javascript. The first thing you should know is that there's a lot to know. Seriously, it's astounding how many different things you can do with Javascript. Today I'll share with you just a few of the basic things you'll need to understand should you endeavor to expand your coding knowledge! </p>
+            </div>
+        </section>
+        
+        
+    </div>
+
+
+    <section class="concepts">
+            <button class="tablink" onclick="openPage('obs', this, 'black')">Objectively objects</button>
+            <button class="tablink" onclick="openPage('arr', this, 'black')" id="defaultOpen">Putting the Arr in Array</button>
+            <button class="tablink" onclick="openPage('funct', this, 'black')">Funct it Up</button>
+
+            <div id="obs" class="tabcontent">
+                <h2>Objectively objects</h2>
+                <article> So, starting off lets talk about objects! Pretty much everything in JavaScript can be considered objects. In fact both of the other two things I'll tell you about after objects are, well, objects. Objects are sort of like boxes that you can store your stuff in. The "stuff" you put in the box can help determine its value or keep important info organized. For the mathmatically inclined you could think of objects as variables. For instance, if I were to say that "x = 10", x is our varible and 10 is our value. Both x and 10 are objects as well. In another case if I said that, Pirates = "Smelly", I'd be stating that my variable, Pirates, are smelly. Pirates and "Smelly" are both objects!
+                </article>
+
+            </div>
+            <div id="arr" class="tabcontent"> 
+                <h2>Putting the Arr in Array</h2>
+                <a>In this section we shall discuss something called an Array. As mentioned in the previous section an array is an object. Arrays are special in the sense that they can hold multiple values of all different kinds, all at once. To better help you understand how an array works I'll walk you through making one. So, if we were to say: let pirate = ["Peg Leg", "Parley", 1]. Simple right? Making an array is a cake walk, utilizing the information inside of it is more of a plank walk though. In the next section we can cover that!</a>
+
+
+            </div>
+            <div id="funct" class="tabcontent">
+                <h2>Funct it up</h2>
+                <a> The final nugget of knowledge I'll teach you about today is regarding Functions! So a function allows you to tell your script what to do, how, and when. There are all kinds of different functions that can all be used for different situations. Today we can just get our feet wet and look at what a basic function looks like and what it will do. For this we can say: 
+                    let Ahoy = function matey(){console.log("Pirate greeting!")} 
+                So now Ahoy represents the function matey(). If we were to 'invoke' or call the function we would get the reply 'Pirate greeting!'. There are lots of complex things you can do with a function and if you're eager to learn more you can check out the links in the "Learn More Here" menu in the top left corner!   
+                </a>
+
+
+
+            </div>
+            <script>
+                    function openPage(pageName,elmnt,color) {
+                      var i, tabcontent, tablinks;
+                      tabcontent = document.getElementsByClassName("tabcontent");
+                      for (i = 0; i < tabcontent.length; i++) {
+                        tabcontent[i].style.display = "none";
+                      }
+                      tablinks = document.getElementsByClassName("tablink");
+                      for (i = 0; i < tablinks.length; i++) {
+                        tablinks[i].style.backgroundColor = "";
+                      }
+                      document.getElementById(pageName).style.display = "block";
+                      elmnt.style.backgroundColor = color;
+                    }
+                    
+                    document.getElementById("defaultOpen").click();
+                    </script>
+
+        </section>
+    </div>
+    <div class="footer">
+        <p> © 2019 Copywrite: David Nellis</p>
+
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+body {
+    background: lightskyblue;
+    border: black;
+}
+
+table {
+    background: whitesmoke;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px black solid;
+}
+
+h2 {
+    text-align: center;
+}
+
+.Movie {
+    font-style: italic
+}
